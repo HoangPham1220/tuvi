@@ -6,6 +6,19 @@ Phạm vi: chỉ diễn giải khuynh hướng tâm lý–hành vi từ dữ li�
 
 Tử Vi là một hệ thống diễn giải biểu tượng, không phải công cụ đo lường tâm lý đã được kiểm chứng thực nghiệm. Vì vậy, “độ tin cậy” trong báo cáo thể hiện mức độ nhất quán nội bộ của các chỉ dấu trong lá số, không phải xác suất khoa học.
 
+### Cách đọc chuỗi lập luận trong báo cáo
+
+Trong báo cáo này, một nhận định không được hình thành chỉ vì một sao có một từ khóa cố định. Chuỗi diễn giải được dùng là:
+
+1. **Cung trả lời “lĩnh vực tâm lý nào?”** Mệnh được dùng cho cách tự tổ chức bản thân và phản xạ căn bản; Thiên Di cho giao diện với môi trường; Quan Lộc cho cách đảm nhiệm vai trò; Tật Ách cho phản ứng khi hệ thống mất cân bằng; Phu Thê cho cách vận hành trong quan hệ một-một.
+2. **Chính tinh trả lời “chức năng chủ đạo vận hành ra sao?”** Ví dụ, Thiên Cơ tượng trưng cho điều chỉnh và tìm phương án; Vũ Khúc nghiêng về lượng hóa, hiệu suất và kiểm soát nguồn lực; Cự Môn nghiêng về ngôn ngữ, chất vấn và phân biệt đúng–sai.
+3. **Phụ tinh và sát tinh trả lời “chức năng đó bị thúc, cản hay biến dạng theo cách nào?”** Đà La thêm độ trì kéo và bám; Hỏa Tinh thêm tốc độ bùng; Thiên Hình thêm nhu cầu cắt, phân định và thực thi ranh giới.
+4. **Miếu–Vượng–Đắc–Hãm trả lời “năng lượng có dễ biểu hiện ổn định không?”** Miếu/vượng/đắc không tự động có nghĩa là tốt về đạo đức; chúng thường chỉ khả năng biểu hiện rõ và hữu dụng hơn. Hãm không có nghĩa là chắc chắn xấu; nó thường chỉ chức năng khó điều tiết, dễ quá mức hoặc dễ bị hoàn cảnh làm lệch.
+5. **Đồng cung, tam hợp và xung chiếu quyết định khoảng cách ảnh hưởng.** Sao đồng cung tác động trực tiếp nhất lên cùng một lĩnh vực. Tam hợp cung cấp nền hỗ trợ hoặc mục tiêu liên kết. Đối cung thường mô tả lực phản hồi từ phía đối diện. Không gom các sao chỉ vì chúng cùng tồn tại đâu đó trong lá số.
+6. **Tuần–Triệt và vòng Tràng Sinh điều chỉnh nhịp biểu hiện.** Chúng không xóa hoàn toàn một sao. Trong báo cáo này, Triệt được hiểu thận trọng như lực ngắt, chặn hoặc buộc sửa; các trạng thái như Mộ được dùng để mô tả xu hướng thu giữ, không mang nghĩa sự kiện hay sinh tử.
+
+Do đó, cách nói “có sao X nên có tính Y” bên dưới luôn được hiểu là một quy tắc diễn giải có điều kiện trong hệ Tử Vi, không phải sao gây ra hành vi theo nghĩa vật lý.
+
 ## 1. Kiểm tra và tóm tắt dữ liệu đầu vào
 
 ### Tính hợp lệ
@@ -58,6 +71,8 @@ JSON chỉ ghi vị trí của bốn sao Hóa, không có trường liên kết 
 - **Bằng chứng chính:** Mệnh tại Mùi không có chính tinh; đồng cung Đà La đắc, Hỏa Tinh hãm, Thiên Hình hãm, Quan Phủ, Thiếu Âm, Phong Cáo; Mệnh gặp Triệt và ở vòng Mộ.
 - **Bằng chứng hỗ trợ:** Tam hợp Tài Bạch có Thái Dương–Thiên Lương đều vượng, Hóa Lộc, Đế Vượng; Quan Lộc có Thái Âm miếu, Hóa Khoa, Tràng Sinh.
 - **Yếu tố phản biện:** Triệt có thể làm giảm độ bộc phát của Hỏa–Đà–Hình; tam phương sáng khiến cấu trúc không thể chỉ được đọc theo hướng khắc nghiệt.
+- **Vì sao tổ hợp này dẫn tới nhận định:** Mệnh là cung được dùng để đọc cách cá nhân tự tổ chức và biểu hiện bản thân. Khi Mệnh không có chính tinh, không có một “chức năng trung tâm” duy nhất đứng tại chỗ để định giọng; vì vậy phải mượn lực của đối cung và tam phương. Điều này tạo khả năng đổi cách thể hiện theo vai trò hoặc môi trường. Tuy nhiên, Mệnh không hề trống: Đà La tạo quán tính và độ bám; Hỏa Tinh tạo phản ứng nhanh; Thiên Hình tạo nhu cầu phân ranh; Quan Phủ tăng chú ý tới quy tắc và tranh nghị. Vì các sao này đồng cung Mệnh, chúng đi trực tiếp vào phản xạ bản thân. Nhật–Lương và Thái Âm ở tam hợp lại cung cấp lý trí, chuẩn mực và khả năng quan sát để điều tiết phần căng đó. Kết luận vì thế là “linh hoạt nhưng phòng vệ”, chứ không phải chỉ “nóng” hoặc chỉ “hiền”.
+- **Vai trò của trạng thái:** Đà La ở trạng thái đắc làm tính bền, chịu trì kéo và bám mục tiêu dễ dùng hơn; Hỏa Tinh và Thiên Hình hãm khiến tốc độ phản ứng và nhu cầu phán định khó điều hòa hơn. Triệt ngay Mệnh thường tạo một nhịp ngắt: có thể chặn hành động bộc phát, nhưng cũng có thể khiến cá nhân tự sửa, tự nghi ngờ hoặc thấy mình khó biểu hiện trọn vẹn. Vòng Mộ được dùng ở đây để tăng sắc thái giữ vào trong, không được hiểu theo nghĩa sức khỏe hay tuổi thọ.
 - **Hoàn cảnh dễ xuất hiện:** Bị đánh giá, bị cản trở, chưa xác định được vai trò, hoặc phải chứng minh năng lực.
 - **Biểu hiện trưởng thành:** Biết trì hoãn phản ứng, lấy tiêu chuẩn và năng lực thực tế làm điểm tựa.
 - **Biểu hiện mất cân bằng:** Cứng đầu, phản ứng sắc, tự vệ quá sớm hoặc coi sự bất đồng là thách thức địa vị.
@@ -69,6 +84,8 @@ JSON chỉ ghi vị trí của bốn sao Hóa, không có trường liên kết 
 - **Bằng chứng chính:** Thân an tại Phu Thê ở Tỵ; Thiên Cơ vượng, Văn Xương đắc đồng cung.
 - **Bằng chứng hỗ trợ:** Thiên Hỷ, Thiếu Dương và Địa Giải hỗ trợ sự trao đổi và khả năng sửa chữa bất đồng.
 - **Yếu tố phản biện:** Thiên Không, Kiếp Sát, Linh Tinh đắc, Đại Hao, Cô Thần và vòng Bệnh làm quan hệ dễ có nhịp gần–xa hoặc quá tải tinh thần.
+- **Vì sao tổ hợp này dẫn tới nhận định:** Trong quy tắc đang dùng, cung an Thân mô tả nơi cá nhân dồn nhiều sự tham gia thực tế và nơi hành vi trở nên rõ khi đã phải sống, lựa chọn và chịu trách nhiệm. Thân nằm tại Phu Thê nên quan hệ một-một, đối tác và sự phối hợp trở thành “phòng thí nghiệm” quan trọng của bản sắc. Thiên Cơ là chức năng quan sát biến số và điều chỉnh phương án; Văn Xương là chức năng sắp xếp, gọi tên và diễn đạt. Cả hai có trạng thái tốt nên nhu cầu hiểu nhau bằng trao đổi và cùng giải bài toán quan hệ khá rõ.
+- **Vì sao lại có nhịp gần–xa:** Thiên Không làm một phương án hoặc ý nghĩa đang theo đuổi có lúc bị rỗng hay bị phủ định; Linh Tinh tăng tốc độ kích hoạt; Kiếp Sát thêm xu hướng phản ứng mạnh trước điểm bất ngờ; Đại Hao biểu thị mức tiêu hao chú ý; Cô Thần giữ một vùng tự xử lý riêng. Những sao này không đủ để kết luận quan hệ bất ổn, nhưng khi đặt cùng Cơ–Xương tại nơi an Thân, chúng làm tư duy về quan hệ có thể chạy rất nhanh rồi đột ngột muốn ngắt để hồi phục.
 - **Hoàn cảnh dễ xuất hiện:** Có một người đủ quan trọng để ảnh hưởng đến quyết định, lịch sống hoặc định hướng cá nhân.
 - **Biểu hiện trưởng thành:** Cộng tác linh hoạt, nói rõ nhu cầu, dùng khác biệt để điều chỉnh hệ thống quan hệ.
 - **Biểu hiện mất cân bằng:** Suy nghĩ quá nhiều về tín hiệu của đối phương, thay đổi quyết định đột ngột hoặc vừa muốn gần vừa tự tách ra.
@@ -82,6 +99,10 @@ JSON chỉ ghi vị trí của bốn sao Hóa, không có trường liên kết 
 - **Bằng chứng chính:** Mệnh có Đà La–Hỏa Tinh–Thiên Hình và Quan Phủ.
 - **Bằng chứng hỗ trợ:** Thiên Lương vượng ở tam hợp khiến sắc thái này thiên về nguyên tắc hơn là chỉ thích áp đảo.
 - **Yếu tố phản biện:** Thiếu Âm và Thái Âm miếu cho khả năng quan sát mềm; không phải lúc nào cũng đối đầu.
+- **Vì sao Đà La–Hỏa Tinh–Thiên Hình dẫn tới nét “nghiêm”:** Đây không phải ba sao đồng nghĩa với “nghiêm”; kết luận đến từ cách ba chức năng ghép lại tại Mệnh. Đà La tượng trưng cho lực cản, độ bám và xu hướng không bỏ qua điều còn vướng. Về hành vi, nó dễ khiến một vấn đề được giữ trong đầu lâu hơn và làm cá nhân khó cho qua khi chưa xử lý xong. Hỏa Tinh tượng trưng cho sự kích hoạt nhanh, phản ứng tức thời và cường độ; ở trạng thái hãm, phản ứng này khó phân liều, nên khi ngưỡng bị chạm có thể sắc hoặc gấp. Thiên Hình tượng trưng cho việc cắt, phân loại, kỷ luật và ranh giới; ở trạng thái hãm, nhu cầu phân định có thể thành cứng hoặc phán nhanh. Khi cả ba đồng cung Mệnh, chuỗi dễ hình thành là **nhìn thấy điểm sai → giữ nó lại → mức khó chịu tăng → muốn phân định và xử lý dứt điểm**. Người ngoài thường cảm nhận chuỗi này thành vẻ nghiêm, khó xuề xòa hoặc nhạy với sự tùy tiện.
+- **Vì sao liên quan tới quyền hạn:** Quan Phủ đồng cung thêm chủ đề quy tắc, trách nhiệm, lý lẽ và tranh nghị: ai có thẩm quyền, quy trình nào đúng, trách nhiệm thuộc về ai. Thiên Hình muốn ranh giới được thi hành, còn Hỏa Tinh cung cấp lực phản ứng khi ranh giới bị vượt. Vì vậy “quyền hạn” ở đây không nhất thiết là ham chức quyền; nó có thể chỉ là nhu cầu biết rõ ai được quyết định việc gì và căn cứ nào được dùng.
+- **Vì sao không kết luận thành người chỉ biết áp đặt:** Thiên Lương vượng nằm ở Tài Bạch tam hợp Mệnh. Trong cách đọc này, Thiên Lương thêm tiêu chuẩn bảo hộ, công bằng và tính chính danh; do đó nhu cầu kiểm soát có thể hướng vào bảo vệ chất lượng hoặc người chịu thiệt, không chỉ phục vụ cái tôi. Thiếu Âm tại Mệnh và Thái Âm miếu ở Quan cho khả năng quan sát ngầm và cân nhắc phản ứng của người khác. Triệt cũng tạo lực chặn trước khi bộ Hỏa–Hình biểu hiện hết. Vì vậy, cùng một tổ hợp có thể thành “người giữ chuẩn đáng tin” khi cân bằng, hoặc “người làm mọi khác biệt thành lỗi” khi mất cân bằng.
+- **Ví dụ hành vi có thể kiểm chứng:** Trong một dự án, nếu đồng nghiệp đổi tiêu chí mà không báo, phản ứng trưởng thành là yêu cầu ghi lại quyết định, chỉ ra ảnh hưởng và thống nhất người chịu trách nhiệm. Phản ứng mất cân bằng là lưu sự khó chịu, suy rằng người kia cẩu thả, rồi chất vấn gay gắt khi một lỗi nhỏ khác xuất hiện. Hai biểu hiện xuất phát từ cùng nhu cầu về ranh giới, nhưng khác nhau ở mức điều tiết Hỏa Tinh và độ bám của Đà La.
 - **Hoàn cảnh dễ xuất hiện:** Quy trình mơ hồ, trách nhiệm không rõ, người khác nói một đằng làm một nẻo.
 - **Biểu hiện trưởng thành:** Công bằng, có xương sống, dám xử lý vấn đề khó.
 - **Biểu hiện mất cân bằng:** Khắt khe, trừng phạt sai sót, tranh đúng–sai lâu hơn mức cần thiết.
@@ -93,6 +114,9 @@ JSON chỉ ghi vị trí của bốn sao Hóa, không có trường liên kết 
 - **Bằng chứng chính:** Thái Dương–Thiên Lương vượng ở Tài; Thái Âm miếu và Hóa Khoa ở Quan.
 - **Bằng chứng hỗ trợ:** Hóa Lộc và Đế Vượng tại Tài tăng động lực tạo ra giá trị hữu dụng.
 - **Yếu tố phản biện:** Mệnh vô chính diệu gặp Triệt có thể khiến cách thể hiện kín hoặc có lúc thiếu chắc chắn về căn tính.
+- **Vì sao tổ hợp này dẫn tới nhận định:** Tài Bạch được dùng rộng hơn chuyện tiền bạc: nó còn chỉ cách cá nhân định giá năng lực và biến năng lực thành thứ hữu dụng. Thái Dương tượng trưng cho sự rõ ràng, chủ động và khả năng làm một giá trị trở nên nhìn thấy; Thiên Lương thêm tiêu chuẩn, trách nhiệm và độ chính danh. Cả hai đều vượng nên dễ biểu hiện theo hướng muốn sản phẩm có chất lượng và được nhìn nhận bằng tiêu chuẩn rõ. Hóa Lộc tại cùng cung làm tăng cảm giác thỏa mãn khi năng lực sinh ra giá trị; Đế Vượng tăng cường độ muốn đưa khả năng vào trạng thái vận hành mạnh.
+- **Vì sao không chỉ là thích nổi bật:** Quan Lộc có Thái Âm miếu và Hóa Khoa. Thái Âm thiên về quan sát, tích lũy, xử lý phía sau và độ tinh tế; Hóa Khoa nhấn vào tri thức, cách giải thích có hệ thống và uy tín dựa trên hiểu biết. Trục Tài–Quan vì vậy gồm cả phần “làm cho giá trị được thấy” của Thái Dương và phần “chuẩn bị sâu” của Thái Âm. Nó phù hợp hơn với nhu cầu được công nhận là có thực lực so với nhu cầu gây chú ý thuần túy.
+- **Ví dụ hành vi có thể kiểm chứng:** Có thể không thích tự quảng bá liên tục, nhưng rất khó chịu nếu một sản phẩm làm kỹ bị đánh giá hời hợt; hoặc thích được ghi nhận bằng chất lượng, số liệu và lời giải thích hơn bằng lời khen xã giao.
 - **Hoàn cảnh dễ xuất hiện:** Công việc có tiêu chuẩn rõ, vấn đề cần giải thích hoặc xây dựng hệ thống.
 - **Biểu hiện trưởng thành:** Tự học, tích lũy năng lực, làm việc có lý do và trách nhiệm.
 - **Biểu hiện mất cân bằng:** Đồng nhất giá trị bản thân với thành tích; khó nhận góp ý nếu cảm thấy năng lực bị phủ nhận.
@@ -104,6 +128,9 @@ JSON chỉ ghi vị trí của bốn sao Hóa, không có trường liên kết 
 - **Bằng chứng chính:** Nô Bộc có Tham Lang hãm, Tướng Quân, Hữu Bật, Bạch Hổ và Thiên Thương.
 - **Bằng chứng hỗ trợ:** Phúc Đức có Kình Dương, Văn Khúc hãm và Tuần; Thân có Cô Thần.
 - **Yếu tố phản biện:** Hữu Bật cho thấy năng lực hợp tác thực sự tồn tại.
+- **Vì sao có mặt hướng giao tiếp:** Nô Bộc là cung trực tiếp nhất để đọc cách tham gia bạn bè, đồng nghiệp và cộng đồng. Tham Lang có chức năng tìm trải nghiệm, cơ hội và kết nối; Tướng Quân thêm độ chủ động và vị thế trong nhóm; Hữu Bật hỗ trợ phối hợp và biết dùng nguồn lực của người khác. Do đó, dữ liệu không mô tả một người thiếu năng lực xã hội.
+- **Vì sao vẫn có lõi cô độc:** Tham Lang hãm khiến nhu cầu kết nối khó ổn định hơn: dễ vừa tò mò, muốn tham gia, vừa so sánh hoặc thất vọng khi tương tác không đạt kỳ vọng. Bạch Hổ thêm độ cứng và cạnh tranh; Thiên Thương làm vùng cộng đồng nhạy với trải nghiệm bị tổn thương hoặc hụt hẫng. Cô Thần nằm tại cung an Thân giữ xu hướng tự tiêu hóa trải nghiệm quan trọng. Phúc Đức có Kình Dương và Văn Khúc hãm, lại gặp Tuần, cho thấy tầng niềm tin và biểu đạt cảm xúc không hoàn toàn trôi chảy: cá nhân có thể nói chuyện tốt nhưng vẫn khó trao phần dễ tổn thương.
+- **Ví dụ hành vi có thể kiểm chứng:** Có thể chủ động trong họp, kết nối đúng người và giúp nhóm vận hành, nhưng sau đó vẫn cần rút về một mình; hoặc có nhiều quan hệ chức năng nhưng chỉ rất ít người được tiếp cận phần bất an thật sự.
 - **Hoàn cảnh dễ xuất hiện:** Nhóm cạnh tranh, quan hệ thiếu tin cậy hoặc mục tiêu chung không rõ.
 - **Biểu hiện trưởng thành:** Giao thiệp có chọn lọc, kết nối được nhiều kiểu người nhưng vẫn giữ độc lập.
 - **Biểu hiện mất cân bằng:** Cạnh tranh ngầm, nghi ngờ động cơ, cảm thấy cô độc ngay cả khi ở trong nhóm.
@@ -119,6 +146,9 @@ Tuy nhiên, Thiên Cơ cùng Thiên Không–Linh Tinh–Kiếp Sát cho thấy 
 - **Bằng chứng chính:** Thiên Cơ vượng, Văn Xương đắc tại nơi an Thân.
 - **Bằng chứng hỗ trợ:** Thái Âm miếu–Hóa Khoa ở Quan; Vũ Khúc–Thiên Tướng mạnh ở Tật giúp kéo tư duy về tính thực tế.
 - **Yếu tố phản biện:** Đồng–Cự hãm–Hóa Kỵ ở Di và Không–Linh–Kiếp tại Thân làm giảm độ ổn định khi chịu áp lực xã hội.
+- **Vì sao Thiên Cơ–Văn Xương tạo kiểu tư duy này:** Thiên Cơ không chỉ có nghĩa “thông minh”; chức năng cốt lõi của nó là quan sát sự thay đổi, tháo lắp cấu trúc và tìm phương án khác. Khi vượng, việc chuyển góc nhìn và nhận ra cơ chế dễ trở thành năng lực dùng được. Văn Xương đắc giúp đưa các nhánh suy nghĩ vào từ ngữ, mô hình hoặc trình tự. Vì chúng nằm tại nơi an Thân, tư duy không chỉ ở mức sở thích mà dễ đi vào cách hành động thực tế.
+- **Vì sao dễ quá tải giả thuyết:** Thiên Không có thể làm một mô hình vừa dựng mất ý nghĩa; Linh Tinh làm quá trình chuyển trạng thái nhanh; Kiếp Sát tăng phản ứng trước biến số bất ngờ. Ở Thiên Di, Cự Môn liên quan tới phân biệt bằng ngôn ngữ và chất vấn, còn Hóa Kỵ làm một điểm vướng dễ bị chú ý lặp lại. Khi thông tin xã hội mập mờ, hệ thống có thể tiếp tục tạo cách giải thích mới thay vì dừng ở “chưa biết”.
+- **Cơ chế cân bằng:** Vũ Khúc hỏi “dữ kiện và nguồn lực thật là gì?”, Thiên Tướng hỏi “vai trò và quy tắc là gì?”, Thiên Lương hỏi “tiêu chuẩn nào hợp lý?”. Ba câu hỏi này giúp Thiên Cơ không chạy vô hạn giữa các khả năng.
 - **Hoàn cảnh dễ xuất hiện:** Quan hệ không rõ ràng, thông tin mâu thuẫn, bị yêu cầu quyết định ngay.
 - **Biểu hiện trưởng thành:** Thu thập đủ dữ kiện, viết ra giả định, đặt tiêu chí rồi mới chốt.
 - **Biểu hiện mất cân bằng:** Dựng quá nhiều kịch bản, chuyển nhanh giữa các phương án, dùng lý lẽ để bảo vệ phản ứng đã có sẵn.
@@ -130,6 +160,9 @@ Tuy nhiên, Thiên Cơ cùng Thiên Không–Linh Tinh–Kiếp Sát cho thấy 
 - **Bằng chứng chính:** Vũ Khúc vượng–Thiên Tướng miếu, Hóa Quyền, Thiên Mã đắc và Lâm Quan tại Tật Ách.
 - **Bằng chứng hỗ trợ:** Tài Bạch có Hóa Lộc và Đế Vượng; tam hợp Mệnh có các chính tinh sáng.
 - **Yếu tố phản biện:** Thiên Khốc hãm cho thấy vẻ quyết đoán có thể che phần căng thẳng hoặc thất vọng không được nói ra.
+- **Vì sao Tật Ách được dùng để đọc phản ứng căng thẳng:** Trong phạm vi báo cáo hành vi, Tật Ách không được dùng để chẩn đoán bệnh. Nó được dùng như nơi quan sát cách hệ thống phản ứng khi quá tải hoặc mất cân bằng. Vũ Khúc thiên về số liệu, tài nguyên, khả năng cắt phần không hiệu quả; Thiên Tướng thiên về chức trách, bảo vệ trật tự và điều phối. Vũ Khúc vượng và Thiên Tướng miếu khiến hai chức năng này có khả năng vận hành rõ khi gặp áp lực.
+- **Vai trò của Hóa Quyền, Thiên Mã và Lâm Quan:** Hóa Quyền tăng nhu cầu có quyền tác động; Thiên Mã tăng xu hướng phải di chuyển hoặc làm điều gì đó; Lâm Quan là pha năng lượng hướng vào đảm nhiệm và thi hành. Ba yếu tố cùng cung khiến phản ứng “hãy để tôi xử lý” dễ hơn phản ứng ngồi yên chịu mơ hồ.
+- **Mặt trái của cùng cơ chế:** Nếu không phân biệt được điều gì thật sự thuộc quyền mình, năng lực điều phối biến thành tiếp quản. Thiên Khốc và Điếu Khách cho thấy cảm giác thất vọng có thể bị đẩy xuống dưới lớp hành động; cá nhân sửa hệ thống rất nhanh nhưng chậm thừa nhận rằng mình đang tổn thương hoặc mất niềm tin.
 - **Hoàn cảnh dễ xuất hiện:** Khủng hoảng, tiến độ trượt, thiếu người chịu trách nhiệm hoặc quyền hạn không rõ.
 - **Biểu hiện trưởng thành:** Bình tĩnh hóa hỗn loạn bằng quy trình và hành động cụ thể.
 - **Biểu hiện mất cân bằng:** Vi quản lý người khác, khó giao quyền, biến cảm xúc thành “vấn đề phải sửa”.
@@ -147,6 +180,10 @@ Thiên Di có Thiên Đồng–Cự Môn đều hãm, Hóa Kỵ, Quả Tú và P
 
 Tấu Thư, Đường Phù, Thiên Đức và sao Phúc Đức tại cung giúp cách diễn đạt trở nên thuyết phục hơn khi đã chuẩn bị và giữ được thiện chí.
 
+**Vì sao Đồng–Cự–Kỵ tạo vòng lặp giao tiếp trên:** Thiên Di là nơi đọc phản ứng giữa cá nhân và môi trường bên ngoài. Thiên Đồng có chức năng tìm sự dễ chịu, điểm chung và khả năng thích nghi; khi hãm, sự thích nghi dễ thiếu ổn định hoặc né phần khó cho tới khi không thể né. Cự Môn dùng lời nói để phân biệt, hỏi và phản biện; khi hãm, cùng chức năng đó dễ trượt sang nghi nghĩa, tranh cách hiểu hoặc mắc ở câu chữ. Hóa Kỵ tại cùng cung không tự động có nghĩa là “xấu”; ở bình diện hành vi, nó làm chủ đề hiểu–bị hiểu và điểm chưa nói rõ trở nên dễ ám ảnh. Kết quả là cá nhân có thể bắt đầu bằng Thiên Đồng — cố hòa và thích nghi — rồi chuyển sang Cự Môn — chất vấn — khi cảm thấy sự mập mờ đã vượt ngưỡng.
+
+**Vì sao vẫn có khả năng nói tốt:** Tấu Thư hỗ trợ trình bày thành văn hoặc có trình tự; Đường Phù thêm tính khuôn phép; các sao Đức làm giảm xu hướng chỉ dùng lời nói để thắng. Vì vậy vấn đề không phải thiếu năng lực diễn đạt, mà là trạng thái kích hoạt lúc diễn đạt.
+
 - **Biểu hiện trưởng thành:** Người phản biện có lý, nhìn thấy lỗ hổng và diễn đạt vấn đề khó.
 - **Biểu hiện mất cân bằng:** Tranh chữ, nhạy với ẩn ý, giải thích quá mức hoặc nói trong tâm thế phòng vệ.
 - **Độ tin cậy:** Cao.
@@ -163,6 +200,10 @@ Quan Lộc có Thái Âm miếu, Hóa Khoa, Tràng Sinh, Thiên Tài, Văn Tinh,
 
 Điểm khó không nằm nhiều ở năng lực chuyên môn mà ở giao tiếp khi tiêu chuẩn bị vi phạm. Mệnh Hỏa–Đà–Hình và Di Đồng–Cự–Kỵ có thể khiến phê bình trở nên sắc hoặc mang màu chất vấn.
 
+**Vì sao cấu trúc công việc có chiều sâu:** Quan Lộc mô tả cách cá nhân đảm nhiệm vai trò. Thái Âm miếu thiên về thu thập, lưu giữ, quan sát chi tiết và làm phần việc cần độ kín; Hóa Khoa đưa hoạt động đó về tri thức, quy chuẩn và khả năng giải thích. Tràng Sinh thêm tính sinh sôi và học tiếp; Văn Tinh, Thai Phụ, Thiên Tài tiếp tục củng cố tuyến học–viết–chuẩn bị. Đây là lý do báo cáo nhấn vào năng lực hệ thống hóa, không chỉ nói chung rằng “có năng lực”.
+
+**Vì sao dễ va chạm ở khâu hợp tác hơn khâu chuyên môn:** Nguồn lực nghề nghiệp tại Tài–Quan tương đối nhất quán và có trạng thái mạnh, trong khi cung giao diện xã hội mang Đồng–Cự hãm–Hóa Kỵ và Mệnh mang Hỏa–Đà–Hình. Nói cách khác, khả năng hiểu và làm có thể tốt hơn khả năng chịu đựng việc người khác dùng một tiêu chuẩn khác. Nếu trưởng thành, cá nhân chuyển tiêu chuẩn thành checklist và quy trình. Nếu mất cân bằng, tiêu chuẩn được chuyển thành phán xét con người.
+
 - **Biểu hiện trưởng thành:** Chuẩn hóa công việc, phân tích rủi ro, bảo vệ chất lượng.
 - **Biểu hiện mất cân bằng:** Coi đồng nghiệp thiếu chính xác là thiếu trách nhiệm; sửa người thay vì sửa quy trình.
 - **Yếu tố phản biện:** Nô Bộc có Hữu Bật cho thấy vẫn có khả năng phối hợp và tìm người hỗ trợ.
@@ -173,6 +214,10 @@ Quan Lộc có Thái Âm miếu, Hóa Khoa, Tràng Sinh, Thiên Tài, Văn Tinh,
 Thân cư Phu Thê khiến quan hệ gần gũi có ảnh hưởng mạnh tới trạng thái tinh thần và cách tự nhận diện. Thiên Cơ–Văn Xương cho nhu cầu kết nối bằng trò chuyện, hiểu nhau về tư duy và cùng giải quyết vấn đề.
 
 Nhưng Linh Tinh, Thiên Không, Kiếp Sát, Đại Hao và Cô Thần tạo một mâu thuẫn: càng coi trọng quan hệ càng dễ phân tích quan hệ quá mức. Người này có thể cần nhiều kết nối trí tuệ nhưng đồng thời cần khoảng riêng để không cảm thấy mất quyền tự chủ.
+
+**Vì sao quan hệ được xử lý như một bài toán:** Thiên Cơ quan sát thay đổi và tìm cách điều chỉnh; Văn Xương cần gọi tên và sắp xếp vấn đề. Khi hai sao ở Phu Thê và cũng là nơi an Thân, sự gần gũi thường đi cùng nhu cầu hiểu cơ chế của quan hệ: tại sao đối phương thay đổi, quy tắc ngầm là gì, phương án nào làm hai bên vận hành tốt hơn. Điều này có thể rất hữu ích, nhưng cũng dễ biến cảm xúc thành bài toán cần giải ngay.
+
+**Vì sao có nguy cơ rút lui đột ngột:** Linh Tinh tăng tốc độ chuyển trạng thái; Thiên Không làm một giả định về quan hệ có thể bị phủ định nhanh; Kiếp Sát tăng cảm giác cần phản ứng trước điểm gãy; Đại Hao mô tả mức tiêu hao lớn; Cô Thần giữ nhu cầu tự xử lý. Chuỗi hành vi có thể là **đầu tư nhiều chú ý → cố hiểu và sửa → quá tải → cần cắt tương tác để lấy lại quyền tự chủ**. Đây là khuynh hướng có điều kiện, không phải dự đoán kết quả quan hệ.
 
 - **Hoàn cảnh dễ xuất hiện:** Tín hiệu mập mờ, đối phương im lặng, thay đổi kế hoạch hoặc không nói rõ kỳ vọng.
 - **Biểu hiện trưởng thành:** Chủ động trao đổi, biết điều chỉnh cách tương tác, quan tâm bằng giải pháp cụ thể.
@@ -186,13 +231,19 @@ Nhưng Linh Tinh, Thiên Không, Kiếp Sát, Đại Hao và Cô Thần tạo m�
 
 Vũ Khúc–Thiên Tướng, Hóa Quyền và Thiên Mã tại Tật Ách khiến người này dễ chuyển sang chế độ xử lý: kiểm tra dữ kiện, thu hồi quyền quyết định, cắt phần không cần thiết và đẩy tiến độ.
 
+Vũ Khúc cung cấp thao tác lượng hóa và cắt giảm; Thiên Tướng cung cấp khung vai trò; Hóa Quyền làm tăng nhu cầu tác động; Thiên Mã đẩy cơ thể và chú ý vào hành động. Vì thế, “siết cấu trúc” là kết quả của bốn chức năng ghép lại, không phải từ một sao đơn lẻ.
+
 ### Phản xạ thứ hai: lời nói trở nên phòng vệ
 
 Cự Môn hãm và Hóa Kỵ ở Thiên Di có thể làm tăng giải thích, chất vấn hoặc tranh luận khi thấy mình bị hiểu sai.
 
+Cự Môn xử lý bất đồng qua lời nói và phân biệt nghĩa. Hóa Kỵ làm điểm chưa được giải quyết khó rời khỏi chú ý. Khi ở Thiên Di, đối tượng của sự chú ý thường là phản hồi bên ngoài; bởi vậy cá nhân có thể tiếp tục giải thích không chỉ để truyền đạt, mà để lấy lại cảm giác kiểm soát cách mình được hiểu.
+
 ### Phản xạ thứ ba: tích áp rồi phản ứng sắc
 
 Đà La tạo độ giữ và kéo dài; Hỏa Tinh–Thiên Hình tạo độ bén và đột ngột. Vì vậy có thể không phản ứng ngay, nhưng khi ngưỡng bị vượt qua thì lời nói hoặc quyết định trở nên dứt mạnh.
+
+Đà La và Hỏa Tinh không triệt tiêu nhau: một bên làm lực cản tích lại, một bên tạo điểm bốc. Thiên Hình cho phản ứng một hình thức cụ thể như đặt giới hạn, loại bỏ, phân trách nhiệm hoặc cắt một lựa chọn. Triệt có thể ngăn lần bộc phát đầu tiên, nhưng nếu cá nhân chỉ nén mà không xử lý nội dung, lực Đà La vẫn còn; đó là lý do báo cáo phân biệt “trì hoãn phản ứng” với “đã điều hòa phản ứng”.
 
 - **Biểu hiện trưởng thành:** Tách vấn đề, cảm xúc và quyền hạn; trì hoãn quyết định khi đang bị kích hoạt.
 - **Biểu hiện mất cân bằng:** Cố thắng tranh luận, trừng phạt bằng im lặng, cắt ngang hợp tác hoặc áp dụng tiêu chuẩn quá cứng.
