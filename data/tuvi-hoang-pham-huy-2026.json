@@ -1,6 +1,5 @@
 {
   "data": {
-    "has_luangiai": false,
     "thienban": {
       "gioiTinh": 1,
       "namNu": "Nam",
@@ -10,8 +9,6 @@
         "id": 6,
         "tenChi": "Tỵ",
         "tenHanh": "H",
-        "menhChu": "Vũ khúc",
-        "thanChu": "Thiên cơ",
         "amDuong": -1
       },
       "canGioSinh": 6,
@@ -48,8 +45,6 @@
       "amDuongMenh": "Âm dương nghịch lý",
       "hanhCuc": 2,
       "tenCuc": "Mộc tam Cục",
-      "menhChu": "Phá quân",
-      "thanChu": "Hỏa tinh",
       "menh": "K",
       "sinhKhac": "Bản Mệnh khắc Cục",
       "banMenh": "BẠCH LẠP KIM"
@@ -58,17 +53,6 @@
       "thangSinhAmLich": 11,
       "gioSinhAmLich": 6,
       "thapNhiCung": [
-        {
-          "cungSo": 0,
-          "hanhCung": null,
-          "cungSao": [],
-          "cungAmDuong": -1,
-          "cungTen": "Hem có",
-          "cungThan": false,
-          "cungDaiHan": 43,
-          "cungTieuHan": "Tỵ",
-          "cungNguyetHan": 5
-        },
         {
           "cungSo": 1,
           "hanhCung": "Thủy",
