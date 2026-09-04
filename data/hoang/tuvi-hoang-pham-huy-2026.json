@@ -3,8 +3,8 @@
     "thienban": {
       "gioiTinh": 1,
       "namNu": "Nam",
-      "hour": 9,
-      "mins": 0,
+      "hour": 10,
+      "mins": 20,
       "chiGioSinh": {
         "id": 6,
         "tenChi": "Tỵ",

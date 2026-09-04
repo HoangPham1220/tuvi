@@ -2,7 +2,7 @@
 
 **Họ tên:** Hoàng Phạm Huy  
 **Giới tính:** Nam  
-**Ngày giờ sinh:** 09 giờ 00, ngày 12/12/2000 dương lịch; ngày 17/11 năm Canh Thìn âm lịch  
+**Ngày giờ sinh:** 10 giờ 20, ngày 12/12/2000 dương lịch; ngày 17/11 năm Canh Thìn âm lịch  
 **Năm xem:** Bính Ngọ 2026, tuổi âm 27  
 **Phạm vi:** Tình duyên cả đời và năm 2026
 

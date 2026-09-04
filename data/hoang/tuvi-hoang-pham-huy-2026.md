@@ -8,7 +8,7 @@
 | Giới tính | Nam |
 | Ngày sinh dương lịch | 12/12/2000 |
 | Ngày sinh âm lịch | 17/11/2000 |
-| Giờ sinh | 09:00 (Kỷ Tỵ) |
+| Giờ sinh | 10:20 (Kỷ Tỵ) |
 | Năm xem | 2026 — 27 tuổi |
 | Bản mệnh | BẠCH LẠP KIM |
 | Cục | Mộc tam Cục |
