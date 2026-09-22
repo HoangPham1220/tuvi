@@ -6,6 +6,15 @@
 
 > **Bản sửa đổi 2 — giờ sinh đã được xác minh lại là 10:20 (trước ghi 09:00).** 10:20 vẫn nằm trọn trong giờ Tỵ nên **lá số không đổi một sao nào**; điểm phản biện số 1 (giờ sinh sát ranh Thìn/Tỵ) đã được gỡ. Xem mục II. Toàn bộ các điểm còn lại giữ nguyên giá trị.
 
+> **Bản sửa đổi 3 — đính chính (2026-09-22), kiểm bằng `scripts/kiem-tra-la-so.py`.**
+>
+> 1. **Mục III, VIII và dòng 2 của mục IX tính sai tiểu hạn.** `annualBranch` là nhãn tiểu hạn, không phải "chi xung". Trường này khớp cả 12 cung với phép an chuẩn: tuổi Thân Tý Thìn ghi năm sinh tại Tuất, nam đi thuận. "Mọi cung lệch đều 6" là hệ quả đúng của công thức với nam tuổi Thìn. Tiểu hạn 2026 của Huy ở **Tý (Nô Bộc)**, không phải Thìn (Tử Tức). Bản RP gốc đọc đúng vị trí này. Phần lưu Tuế Phá tại Tý vẫn đúng, nên năm 2026 Nô Bộc vừa là cung tiểu hạn vừa mang lưu Tuế Phá.
+> 2. **Bản phản biện bỏ lưu Tứ Hóa năm Bính Ngọ.** Thiên Cơ hóa Quyền, Văn Xương hóa Khoa và lưu Lộc Tồn cùng vào Phu Thê (Tỵ). Theo L§6.4, lớp năm có kích hoạt Phu Thê. Kết luận "năm 2026 không phải năm mở duyên" ở mục VIII vì vậy **cần luận lại**; không dùng nguyên văn.
+> 3. **Mục V.3 và VI.3 đếm Cô Thần + Quả Tú, và Thiên Hỷ + Hồng Loan, như căn cứ độc lập.** Mỗi cặp luôn đi cùng nhau theo vị trí cố định, nên chỉ tính một chỉ báo (Q§4.5).
+> 4. **Mục IV dùng "Phu Thê vô Lộc" làm căn cứ mạnh.** Đặc điểm này gặp ở khoảng 45% lá số, nên chỉ làm nền (Q§5.1). Ngược lại, "Phu Thê giáp Không–Kiếp" chỉ gặp ở khoảng 3%, là căn cứ có sức phân biệt cao.
+>
+> Chi tiết: `docs/so-loi.md` S#10–S#12, S#15.
+
 ---
 
 ## 0. Kết luận nhanh
@@ -100,6 +109,8 @@ Kiểm chứng hệ quả của việc đổi 09:00 → 10:20:
 ---
 
 ## III. Lỗi nặng nhất về nội dung: Kết luận 5 dựng trên trường dữ liệu bị hiểu sai — và bị đảo dấu
+
+> ⚠️ **Đã đính chính ở bản sửa đổi 3** (đầu file): mục (b) tính sai tiểu hạn; `annualBranch` là nhãn tiểu hạn.
 
 RP viết: *"trường `annualBranch` đặt Ngọ ở Nô Bộc"* ⇒ suy ra năm 2026 cung Nô Bộc được lưu niên nhấn mạnh ⇒ **"năm 2026 có cửa duyên qua quan hệ xã hội"**.
 
@@ -291,6 +302,8 @@ Phản biện phải công bằng. Những điểm sau là ưu điểm thật:
 ---
 
 ## VIII. Bản dựng lại chương 2026
+
+> ⚠️ **Đã đính chính ở bản sửa đổi 3** (đầu file): dòng "Tiểu hạn 2026" trong bảng dưới sai (đúng là Tý – Nô Bộc); bảng thiếu lưu Tứ Hóa vào Phu Thê. Chương này cần luận lại.
 
 Thay cho Kết luận 5 hiện tại.
 

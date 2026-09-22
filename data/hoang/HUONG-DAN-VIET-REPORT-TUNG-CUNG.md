@@ -1,5 +1,7 @@
 # Hướng dẫn cho Codex: viết report luận giải chuyên sâu theo từng cung
 
+> **Đồng bộ với bộ quy tắc (2026-09-22).** File này chỉ quy định **định dạng** report từng cung. Phương pháp, hạng trọng số, độ tin cậy, câu chữ và giới hạn theo `QUY-TAC-LUAN-GIAI-TU-VI.md` (Q§) và `docs/` (L§, C§). Hai bên mâu thuẫn thì theo Q§ (Q§0.2).
+
 ## 1. Mục đích
 
 Khi người dùng yêu cầu:
@@ -45,14 +47,15 @@ Nếu tên cung không tồn tại trong dữ liệu, phải báo rõ và không
 Với workspace hiện tại, file mặc định là:
 
 ```text
-data/tuvi-hoang-pham-huy-2026.json
+data/hoang/tuvi-hoang-pham-huy-2026.json        (JSON gốc)
+data/hoang/tuvi-hoang-pham-huy-2026.data.json   (bản làm sạch, dùng cho script)
 ```
 
 Chỉ dùng mặc định này khi nó vẫn tồn tại và không có JSON lá số khác gây mơ hồ.
 
 ## 3. Kiểm tra dữ liệu bắt buộc
 
-Trước khi luận giải, Codex phải kiểm tra:
+Trước khi luận giải, Codex phải chạy `python3 scripts/kiem-tra-la-so.py <file .data.json> --cung "<TÊN CUNG>"` và xử lý mọi dòng ❌, ⚠️ (Q§2). Script đã làm phần lớn các bước dưới đây. Codex vẫn phải kiểm tra:
 
 1. JSON hợp lệ.
 2. Thông tin ngày, giờ, múi giờ và giới tính.
@@ -69,9 +72,9 @@ Trước khi luận giải, Codex phải kiểm tra:
 
 Không coi `has_luangiai: false` là thiếu dữ liệu lá số. Trường này chỉ có nghĩa API không cung cấp bài luận giải viết sẵn.
 
-Nếu schema có trường mâu thuẫn, phải công khai mâu thuẫn và loại trường đó khỏi bằng chứng quyết định. Ví dụ, file hiện tại có hai bộ Mệnh Chủ/Thân Chủ khác nhau nên không được tự chọn một bộ.
+Nếu schema có trường mâu thuẫn, phải công khai mâu thuẫn và loại trường đó khỏi bằng chứng quyết định. Mệnh Chủ/Thân Chủ của phần mềm không dùng; lấy theo output script (D§3).
 
-Nếu JSON chỉ ghi vị trí của Hóa mà không ghi chính tinh phát hóa, chỉ được luận Hóa theo cung. Không tự gán sao phát hóa từ kiến thức bên ngoài.
+Sao phát hóa lấy theo output script (Tứ Hóa tính từ can năm, C§4), không tự gán từ trí nhớ.
 
 Không dùng riêng trường `saoTot` để kết luận tốt hoặc xấu.
 
@@ -139,6 +142,8 @@ Mỗi report chỉ luận hành vi thuộc phạm vi cung mục tiêu:
 
 Nếu một cách đọc là quy tắc mở rộng hoặc khác nhau giữa các trường phái, phải nói rõ.
 
+Chữ "không dự đoán" trong bảng trên nghĩa là không phán kết quả chắc chắn. Xu hướng theo hệ thống vẫn được nêu, với mức tin cậy theo Q§4, câu chữ theo Q§5, và luận hạn theo L§6 khi người dùng hỏi về thời gian.
+
 ## 6. Quy tắc diễn giải sao
 
 ### 6.1. Không dùng từ khóa đơn lẻ
@@ -195,7 +200,7 @@ Với mỗi sao hoặc bộ sao quan trọng, phân tích theo thứ tự:
 - Ngũ hành là lớp điều chỉnh, không được lấn át chính tinh, vị trí cung và quan hệ tam phương tứ chính.
 - Nếu kết luận phụ thuộc ngũ hành, độ tin cậy tối đa nên là thấp hoặc trung bình, trừ khi có chỉ dấu khác hỗ trợ mạnh.
 
-## 7. Phân biệt bốn tầng nội dung
+## 7. Phân biệt bốn loại nội dung
 
 Trong quá trình suy luận, luôn phân biệt:
 
@@ -223,7 +228,7 @@ Ví dụ:
 
 > Tấu Thư và Đường Phù hỗ trợ trình bày có trình tự, nên không thể kết luận người này thiếu năng lực giao tiếp. Không có dữ liệu hành vi thực tế để xác định tần suất tranh luận.
 
-Trong phần văn xuôi có thể không cần gắn nhãn bốn tầng ở mọi đoạn, nhưng hộp bằng chứng cuối report phải thể hiện rõ chúng.
+Trong phần văn xuôi có thể không cần gắn nhãn bốn loại ở mọi đoạn, nhưng hộp bằng chứng cuối report phải thể hiện rõ chúng.
 
 ## 8. Phong cách văn xuôi bắt buộc
 
@@ -303,13 +308,7 @@ Các lời khuyên trên quá chung và không được phép dùng nếu không
 
 ## 10. Độ tin cậy
 
-Sử dụng rubric:
-
-- **Cao:** Có bằng chứng trực tiếp tại cung mục tiêu và ít nhất hai chỉ dấu độc lập hỗ trợ; ít phụ thuộc khác biệt trường phái.
-- **Trung bình:** Có bằng chứng trực tiếp nhưng cần phụ tinh, tam hợp hoặc một quy tắc mở rộng.
-- **Thấp:** Chủ yếu dựa vào phụ tinh, ngũ hành, Tuần/Triệt hoặc quy tắc khác nhau đáng kể giữa các trường phái.
-
-Có thể viết mức ghép như `Trung bình–cao` nếu giải thích rõ phần nào cao và phần nào trung bình.
+Chấm theo bảng quyết định Q§4.2 (và Q§4.3 nếu có yếu tố thời gian). Chỉ dùng ba mức Cao, Trung bình, Thấp; **không dùng mức ghép**. Mỗi mức phải ghi bước nào của bảng quyết định cho ra nó.
 
 Không chấm hầu hết mọi nhận định là cao.
 
@@ -370,8 +369,8 @@ Nếu cung mục tiêu cũng là nơi an Thân, phải có một mục riêng gi
 
 Mỗi khuynh hướng quan trọng phải có:
 
-- Mã nhận định ổn định, ví dụ `THIENDI-01` hoặc `QUANLOC-02`.
-- Nhận định.
+- Mã nhận định ổn định, ví dụ `THIENDI-01` hoặc `QUANLOC-02`, đặt trong tiêu đề `### THIENDI-01 <nhận định>` để `soat-report.py` nhận ra.
+- Nhận định, có dạng "nghiêng về A hơn là B" (Q§5.2).
 - Bằng chứng chính tại bản cung.
 - Bằng chứng hỗ trợ từ tam phương hoặc đối cung.
 - Cơ chế hình thành.
@@ -379,7 +378,8 @@ Mỗi khuynh hướng quan trọng phải có:
 - Biểu hiện trưởng thành.
 - Biểu hiện mất cân bằng.
 - Yếu tố phản biện.
-- Độ tin cậy.
+- Độ tin cậy (ghi bước của bảng Q§4.2).
+- Sai nếu: quan sát cụ thể sẽ bác bỏ nhận định.
 
 Không cần lặp lại toàn bộ phần giải nghĩa sao trong mỗi mã nhận định; có thể dẫn về mục đã giải thích cơ chế.
 
@@ -469,7 +469,7 @@ Không tự động commit hoặc push Git nếu người dùng chưa yêu cầu
 - Không tự bổ sung sao không có trong JSON.
 - Không khẳng định một cách cục vì các sao chỉ cùng xuất hiện đâu đó trong lá số.
 - Không nhầm đồng cung, tam hợp, xung chiếu hoặc giáp cung.
-- Không dự đoán sự kiện, vận hạn, tương lai, tuổi thọ, bệnh tật hoặc kết quả chắc chắn.
+- Không phán sự kiện chắc chắn, tuổi thọ hay bệnh tật (Q§6). Chỉ luận hạn khi người dùng hỏi về thời gian, và theo L§6.
 - Không dùng tên vòng Tràng Sinh theo nghĩa đen về sinh tử.
 - Không chẩn đoán bệnh tâm lý hoặc gán nhãn nhân cách lâm sàng.
 - Không dùng riêng `saoTot` để đánh giá.
@@ -485,7 +485,7 @@ Khi nhận lệnh luận một cung, thực hiện theo thứ tự:
 1. Xác định cung mục tiêu.
 2. Xác định file JSON.
 3. Đọc toàn bộ JSON.
-4. Kiểm tra dữ liệu bắt buộc.
+4. Chạy `scripts/kiem-tra-la-so.py` và kiểm tra dữ liệu bắt buộc.
 5. Lọc cung mục tiêu và toàn bộ sao tại đó.
 6. Xác định hai cung tam hợp và cung xung chiếu bằng địa chi.
 7. Lập bảng dữ liệu trực tiếp trước khi viết suy luận.
@@ -498,7 +498,7 @@ Khi nhận lệnh luận một cung, thực hiện theo thứ tự:
 14. Viết câu hỏi kiểm chứng và phản chứng.
 15. Tạo hộp bằng chứng kỹ thuật.
 16. Kiểm tra lại mọi tên sao, vị trí, trạng thái và quan hệ cung với JSON.
-17. Kiểm tra Markdown.
+17. Kiểm tra Markdown và chạy `scripts/soat-report.py`; sửa hết LỖI.
 18. Lưu file trong `rp/`.
 19. Báo cho người dùng đường dẫn, phạm vi, số từ và các giới hạn quan trọng.
 
@@ -528,19 +528,19 @@ Codex chỉ được coi report hoàn tất khi trả lời “có” cho các c
 
 ```text
 Hãy luận giải cung Thiên Di theo hướng dẫn trong:
-data/HUONG-DAN-VIET-REPORT-TUNG-CUNG.md
+data/hoang/HUONG-DAN-VIET-REPORT-TUNG-CUNG.md
 ```
 
 ### Chỉ rõ file dữ liệu
 
 ```text
-Hãy dùng data/tuvi-hoang-pham-huy-2026.json và luận giải cung Thiên Di theo hướng dẫn trong data/HUONG-DAN-VIET-REPORT-TUNG-CUNG.md. Tạo report trong rp/.
+Hãy dùng data/hoang/tuvi-hoang-pham-huy-2026.data.json và luận giải cung Thiên Di theo hướng dẫn trong data/hoang/HUONG-DAN-VIET-REPORT-TUNG-CUNG.md. Tạo report trong rp/.
 ```
 
 ### Yêu cầu sửa report đã có
 
 ```text
-Hãy đọc lại dữ liệu và cập nhật report cung Thiên Di theo hướng dẫn trong data/HUONG-DAN-VIET-REPORT-TUNG-CUNG.md. Giữ các phần đúng, sửa các suy luận chưa đủ bằng chứng và ghi đè file report hiện tại.
+Hãy đọc lại dữ liệu và cập nhật report cung Thiên Di theo hướng dẫn trong data/hoang/HUONG-DAN-VIET-REPORT-TUNG-CUNG.md. Giữ các phần đúng, sửa các suy luận chưa đủ bằng chứng và ghi đè file report hiện tại.
 ```
 
 ## 21. Mẫu phản hồi cuối của Codex
